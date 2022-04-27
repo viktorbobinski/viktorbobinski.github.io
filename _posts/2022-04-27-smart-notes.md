@@ -4,13 +4,16 @@ layout: post
 categories: media
 ---
 
+Smart Notes is a Java desktop app to have frequently copied text at hand, easy to copy. It sorts the texts sorted from most to least used, as seen in the picture above.
+Link to Github repostory: [Smart Notes Github][smartnotes-github]
+
 ![Smart Notes app](/assets/smart_notes.png)
 
-Smart Notes is a Java desktop app to have frequently copied text at hand, easy to copy. It sorts the texts sorted from most to least used.
 
-Example code snippet
+Below most of the code of the app. A scroll pane is added on top where the texts will be displayed. A copy button which copies a highlighted text to the clipboard is added next. Finally a field to add a new text is added, together with the button which adds the text to the scroll pane.
 
 {% highlight ruby %}
+panel.add(scrollPane);
 copyButton.setText("Copy!");
 copyButton.addActionListener(e -> {
     int index = list.getSelectedIndex();
@@ -37,8 +40,34 @@ addButton.addActionListener(e -> {
 panel.add(addButton);
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+After adding a few more lines to set the arrangement on the page...
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+{% highlight ruby %}
+panel.setPreferredSize(new Dimension(1200, 400));
+panel.setLayout(new GridLayout(5, 1));
+label.setText("Smart Notes");
+label.setHorizontalAlignment(0);
+panel.add(label);
+JFrame frame = new JFrame();
+frame.add(panel, BorderLayout.CENTER);
+frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+frame.setTitle("Smart Notes");
+frame.pack();
+frame.setVisible(true);
+{% endhighlight %}
+
+The app is ready to be started:
+
+{% highlight ruby %}
+public class Main {
+
+    public static void main(String[] args) {
+        SmartNotes smartNotes = new SmartNotes();
+        new GUI(smartNotes);
+    }
+}
+{% endhighlight %}
+
+To create the GUI I have used Swing GUI Designer Intellij plugin.
+
+[smartnotes-github]: https://github.com/viktorbobinski/SmartNotes
