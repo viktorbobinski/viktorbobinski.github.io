@@ -17,7 +17,7 @@ The notes are sorted from most to least used, as seen in the picture above.
 
 And below the code.
 
-Everything is stored in `Swing` components. A scroll pane and button is added. The button gets the index from the `scrollPane` list. This index is used to get the actual `String` from the notes list.
+Every part of the UI is a `Swing` component. A scroll pane and button is added. Once the button is pressed the index from the `scrollPane` list is returned. This index is used to get the actual `String text` from the notes list.
 
 {% highlight ruby %}
 panel.add(scrollPane);
