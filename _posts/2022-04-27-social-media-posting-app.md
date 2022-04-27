@@ -4,9 +4,10 @@ layout: post
 categories: media
 ---
 
-![Swiss Alps](/assets/posting-app-thumbnail.png)
+![Social Media Posting App](/assets/posting-app-thumbnail.png)
 
 Example summary
+
 Link to the App: [Posting App][posting-app]
 
 
