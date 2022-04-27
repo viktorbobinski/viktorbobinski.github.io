@@ -8,7 +8,7 @@ categories: media
 
 Example summary
 
-Link to the App: [Posting App][posting-app]
+Link to the App: [Posting App on Google Sheets][posting-app]
 
 
 Example code snippet
