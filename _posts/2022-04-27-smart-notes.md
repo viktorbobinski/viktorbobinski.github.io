@@ -17,7 +17,7 @@ The notes are sorted from most to least used, as seen in the picture above.
 
 And below the code.
 
-Everything is stored in Swing components. A scroll pane and button is added. The button gets the index from the scrollPane list. This index is used to get the actual String from the notes list.
+Everything is stored in `Swing` components. A scroll pane and button is added. The button gets the index from the `scrollPane` list. This index is used to get the actual `String` from the notes list.
 
 {% highlight ruby %}
 panel.add(scrollPane);
@@ -63,7 +63,7 @@ frame.pack();
 frame.setVisible(true);
 {% endhighlight %}
 
-The app is ready to be started.
+...the app is ready to be started.
 
 {% highlight ruby %}
 public class Main {
@@ -75,7 +75,7 @@ public class Main {
 }
 {% endhighlight %}
 
-Finally, the SmartNotes class which is a container for the added texts. `SmartNotePair` is a pair of String and usageCount.
+Finally, the `SmartNotes` class which is a container for the added texts. `SmartNotePair` is a pair of `String` and `usageCount`.
 
 {% highlight ruby %}
 public class SmartNotes {
