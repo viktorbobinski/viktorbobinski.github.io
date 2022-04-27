@@ -4,7 +4,7 @@ layout: post
 categories: media
 ---
 
-![Screenshot of CombinePDF app](/assets/combinePDF.jpg)
+![Screenshot of CombinePDF app](/assets/combine_pdf.jpg)
 
 Example summary
 
