@@ -110,6 +110,7 @@ public class SmartNotes {
         return notes.get(index);
     }
 }
+{% endhighlight %}
 
 To create the GUI I have used Swing GUI Designer Intellij plugin. This is why all Swing elements can be declared as global variables in the GUI class:
 
