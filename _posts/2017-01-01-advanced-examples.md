@@ -5,7 +5,7 @@ layout: post
 categories: media
 ---
 
-![Swiss Alps](https://github.com/viktorbobinski/viktorbobinski.github.io/blob/master/images/thumbnail.jpg)
+![Swiss Alps](assets/thumnail.jpg)
 
 
 ## MathJax
