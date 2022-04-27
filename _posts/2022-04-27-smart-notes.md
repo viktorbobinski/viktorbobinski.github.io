@@ -4,7 +4,7 @@ layout: post
 categories: media
 ---
 
-![Smart Notes app](/assets/smart_notes.jpg)
+![Smart Notes app](/assets/smart_notes.png)
 
 Example summary
 
