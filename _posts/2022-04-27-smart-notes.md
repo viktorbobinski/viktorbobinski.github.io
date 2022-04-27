@@ -75,7 +75,7 @@ public class Main {
 }
 {% endhighlight %}
 
-Finally, the `SmartNotes` class which is a container for the added texts. `SmartNotePair` is a pair of `String` and `usageCount`.
+Finally, the `SmartNotes` class which is a container for the added texts. `SmartNotePair` is a pair of `String text` and `int usageCount`.
 
 {% highlight ruby %}
 public class SmartNotes {
