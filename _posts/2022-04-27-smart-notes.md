@@ -6,7 +6,7 @@ categories: media
 
 Smart Notes is a Java desktop app to have frequently copied text at hand, easy to copy. 
 
-Link to Github repostory: [Smart Notes Github][smartnotes-github]
+[Link to Smart Notes Github][smartnotes-github]
 
 ![Smart Notes app](/assets/smart_notes.png)
 
