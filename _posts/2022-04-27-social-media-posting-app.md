@@ -4,7 +4,7 @@ layout: post
 categories: media
 ---
 
-![Swiss Alps](/assets/thumbnail.jpg)
+![Swiss Alps](/assets/posting-app-thumbnail.png)
 
 Example summary
 
