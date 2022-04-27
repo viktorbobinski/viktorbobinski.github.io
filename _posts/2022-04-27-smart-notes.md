@@ -115,7 +115,7 @@ public class SmartNotes {
 }
 {% endhighlight %}
 
-To create the GUI I have used Swing GUI Designer Intellij plugin. This is why all Swing elements can be declared as global variables in the GUI class:
+The IntelliJ plugin Swing GUI Designer helps with the GUI creation.Thanks to this Swing elements can be declared as global variables in the GUI class...
 
 {% highlight ruby %}
 private JButton copyButton;
@@ -127,7 +127,7 @@ private JPanel panel;
 private JList list;
 {% endhighlight %}
 
-Their placement on the page gets set by the Swing GUI Designer plugin:
+... and their placement on the page gets set by the Swing GUI Designer plugin:
 
 ![Swing UI Designer in Intellij](/assets/smart_notes_ui_designer.png)
 
