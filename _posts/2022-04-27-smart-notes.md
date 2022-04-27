@@ -17,6 +17,7 @@ The notes are sorted from most to least used, as seen in the picture above.
 
 Below there is a field and button to insert new texts.
 
+
 And below the code.
 
 Everything is stored in Swing components. A scroll pane and button is added. The button gets the index from the scrollPane list. This index is used to get the actual String from the notes list.
