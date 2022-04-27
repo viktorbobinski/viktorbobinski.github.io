@@ -4,7 +4,7 @@ layout: post
 categories: media
 ---
 
-![Swiss Alps](/assets/combinePDF.png)
+![Screenshot of CombinePDF app](/assets/combinePDF.jpg)
 
 Example summary
 
