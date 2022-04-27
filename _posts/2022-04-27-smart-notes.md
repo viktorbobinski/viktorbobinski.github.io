@@ -4,21 +4,22 @@ layout: post
 categories: media
 ---
 
-Smart Notes is a Java desktop app to manage notes. It allows to quickly copy notes and have most frequent used notes at hand. 
+Smart Notes is a Java desktop app to have frequently copied text at hand, easy to copy. 
 
 [Link to Github][smartnotes-github]
 
 ![Smart Notes app](/assets/smart_notes.png)
 
 
-On top all notes are displayed. Once a note is highlighted, it can be copied with a button. 
-The texts are sorted from most to least used, as seen in the picture above.
+On the top there is a list of all added texts, the copy button copies the selected text to clipboard. 
+
+The notes are sorted from most to least used, as seen in the picture above.
+
 Below there is a field and button to insert new texts.
 
-Below is most of the code of the app. 
-A scroll pane is added on top where the texts will be displayed. 
-A copy button which copies a highlighted text to the clipboard is added next. 
-Finally a field to add a new text is added, together with the button which adds the text to the scroll pane.
+And below the code.
+
+Everything is stored in Swing components. A scroll pane and button is added. The button gets the index from the scrollPane list. This index is used to get the actual String from the notes list.
 
 {% highlight ruby %}
 panel.add(scrollPane);
@@ -64,7 +65,7 @@ frame.pack();
 frame.setVisible(true);
 {% endhighlight %}
 
-The app is ready to be started:
+The app is ready to be started.
 
 {% highlight ruby %}
 public class Main {
@@ -76,7 +77,7 @@ public class Main {
 }
 {% endhighlight %}
 
-All that is left is the SmartNotes class which is a container for the added texts.
+Finally, the SmartNotes class which is a container for the added texts. `SmartNotePair` is a pair of String and usageCount.
 
 {% highlight ruby %}
 public class SmartNotes {
