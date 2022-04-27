@@ -75,6 +75,54 @@ public class Main {
 }
 {% endhighlight %}
 
-To create the GUI I have used Swing GUI Designer Intellij plugin.
+All that is left is the SmartNotes class which is a container for the added texts.
+
+{% highlight ruby %}
+public class SmartNotes {
+
+    List<SmartNotePair> notes;
+
+    public SmartNotes() {
+        notes = new ArrayList<>();
+    }
+
+    public void addNote(String text) {
+        SmartNotePair smartNotePair = new SmartNotePair();
+        smartNotePair.setText(text);
+        notes.add(smartNotePair);
+    }
+
+    public SmartNotePair getNote(int index) {
+        String readNoteText = notes.get(index).getText();
+        int readNoteUsageCount = notes.get(index).getUsageCount();
+
+        for (int i = index - 1; i >= 0; --i) {
+            int frontNoteUsageCount = notes.get(i).getUsageCount();
+            if (frontNoteUsageCount < readNoteUsageCount) {
+                String frontNoteText = notes.get(i).getText();
+                notes.get(i).setText(readNoteText);
+                notes.get(i).setUsageCount(readNoteUsageCount);
+                notes.get(i + 1).setText(frontNoteText);
+                notes.get(i + 1).setUsageCount(frontNoteUsageCount);
+            }
+        }
+
+        return notes.get(index);
+    }
+}
+{% highlight ruby %}
+
+{% endhighlight %}
+
+To create the GUI I have used Swing GUI Designer Intellij plugin. This is why all Swing elements can be declared as global variables in the GUI class:
+
+![Swing UI Designer in Intellij][/assets/smart_notes_ui_designer.png]
+
+{% endhighlight %}
+
+Their placement on the page gets set by the Swing GUI Designer plugin.
+
+{% highlight ruby %}
+{% endhighlight %}
 
 [smartnotes-github]: https://github.com/viktorbobinski/SmartNotes
