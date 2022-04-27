@@ -4,14 +4,15 @@ layout: post
 categories: media
 ---
 
-Smart Notes is a Java desktop app to have frequently copied text at hand, easy to copy. 
+Smart Notes is a Java desktop app to manage notes. It allows to quickly copy notes and have most frequent used notes at hand. 
 
 [Link to Github][smartnotes-github]
 
 ![Smart Notes app](/assets/smart_notes.png)
 
 
-On the top there is a list of all added texts, the copy button copies the selected text to clipboard. The texts are sorted from most to least used, as seen in the picture above.
+On top all notes are displayed. Once a note is highlighted, it can be copied with a button. 
+The texts are sorted from most to least used, as seen in the picture above.
 Below there is a field and button to insert new texts.
 
 Below is most of the code of the app. 
