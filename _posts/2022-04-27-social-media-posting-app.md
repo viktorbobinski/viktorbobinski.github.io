@@ -8,6 +8,7 @@ categories: media
 
 Example summary
 
+
 Example code snippet
 
 {% highlight ruby %}
