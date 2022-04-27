@@ -124,7 +124,7 @@ private JPanel panel;
 private JList list;
 {% endhighlight %}
 
-![Swing UI Designer in Intellij][/assets/smart_notes_ui_designer.png]
+![Swing UI Designer in Intellij](/assets/smart_notes_ui_designer.png)
 
 Their placement on the page gets set by the Swing GUI Designer plugin.
 
