@@ -4,11 +4,11 @@ layout: post
 categories: media
 ---
 
+![SmartNotes app](/assets/smart_notes.png)
+
 SmartNotes is a Java desktop app to manage notes. It allows to quickly copy notes and have most frequent used notes at hand.
 
 [SmartNotes on Github][smartnotes-github]
-
-![SmartNotes app](/assets/smart_notes.png)
 
 
 On top all notes are displayed. Once a note is highlighted, it can be copied with a button. <br />
