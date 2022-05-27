@@ -12,4 +12,5 @@ SpringBoot application with Spring Data, Spring Web, Thymeleaf & H2 Database dep
 
 
 A Thymeleaf html template is displayed on /ledger:
+
 ![LedgerAPI app](/assets/ledger-html.JPG)
