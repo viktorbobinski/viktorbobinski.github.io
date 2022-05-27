@@ -14,7 +14,7 @@ Github: [Github][github]
 
 Example code snippet
 
-{% highlight ruby %}
+{% highlight java %}
 def print_hi(name)
   puts "Hi, #{name}"
 end
