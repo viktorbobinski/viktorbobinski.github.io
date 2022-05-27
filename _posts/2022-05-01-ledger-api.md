@@ -4,7 +4,7 @@ layout: post
 categories: media
 ---
 
-![LedgerAPI app](/assets/ledger.jpg)
+![LedgerAPI app](/assets/ledger.JPG)
 
 Example summary
 
