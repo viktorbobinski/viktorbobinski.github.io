@@ -6,22 +6,21 @@ categories: media
 
 ![Social Media Posting App](/assets/posting-app-thumbnail.JPG)
 
-A Google Sheets application created for an organic promotion in Facebook groups. <br/>
+A Google Sheets application created for an organic promotion in Facebook groups. Multiple volunteers across the world used this app to promote yoga related content in their countries.
+
 Functionalities:
 - creates a calendar for posting contents in groups
 - shares data across tabs for easier workflow
 - gathers data
-- connects to Bitly API to create bitly link used to analyse reach of the campaign. <br/>
+- connects to Bitly API to create bitly link used to analyse reach of the campaign.
+
 App supports optional advertisement content if group accepts ads and replacing a Facebook group functionality. <br/>
 
-Multiple volunteers across the world used this app to promote yoga related content in their countries.
+[Posting App on Google Sheets][posting-app]
 
-App: [Posting App on Google Sheets][posting-app]
+[Posting App on Github][github]
 
-Github: [Github][github]
-
-
-Example on how Bitly API is called to create a bitly link
+Example on how Bitly API is called to create a Bitly link:
 
 {% highlight javascript %}
 var bitlyService = {
