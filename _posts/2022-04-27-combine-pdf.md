@@ -8,4 +8,4 @@ categories: media
 
 Example summary
 
-[Combine PDF on Github](https://github.com/viktorbobinski/CombinePDF)
+[CombinePDF on Github](https://github.com/viktorbobinski/CombinePDF)
