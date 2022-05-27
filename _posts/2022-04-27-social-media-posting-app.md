@@ -4,9 +4,9 @@ layout: post
 categories: media
 ---
 
-![Social Media Posting App](/assets/posting-app-thumbnail.JPG)
-
 A Google Sheets application created for an organic promotion in Facebook groups. Multiple volunteers across the world used this app to promote yoga related content in their countries.
+
+![Social Media Posting App](/assets/posting-app-thumbnail.JPG)
 
 
 Functionalities:
