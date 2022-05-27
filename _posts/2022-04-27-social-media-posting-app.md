@@ -8,6 +8,7 @@ categories: media
 
 A Google Sheets application created for an organic promotion in Facebook groups. Multiple volunteers across the world used this app to promote yoga related content in their countries.
 
+
 Functionalities:
 - creates a calendar for posting contents in groups
 - shares data across tabs for easier workflow
