@@ -20,15 +20,15 @@ The ledger keeps track of transactions between 2 people. +/-value transactions a
 ## How it works
 
 There are 2 endpoints: 
-- /ledger get - to get the whole ledger until now
-- /ledger post
+- /ledger get - read the whole ledger until now
+- /ledger post - add a new transaction to the ledger
 
 ## What I've learned
 
-- Create a SpringBoot application with different dependencies with Spring Initializr (start.spring.io)
-- Model-View-Controller and how it works in Spring Web
-- Get/Post endpoints in Spring Web and receiving html parameters
-- Create templates in Thymeleaf
+- Create a SpringBoot application with different dependencies using Spring Initializr (start.spring.io)
+- Use SpringBoot's Model-View-Controller structure pattern
+- Create Get/Post endpoints using Spring Web and + receive html parameters
+- Manipulate and show templates in Thymeleaf
 - Use annotations and repository class to persist an instance of Ledger class in a H2 database using Spring Data (Hibernate)
 
 ## Pictures
