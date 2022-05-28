@@ -6,16 +6,18 @@ categories: media
 
 ![LedgerAPI usage](/assets/ledger.JPG)
 
+A very small SpringBoot application using Spring Data, Spring Web, Thymeleaf & H2 Database dependencies. 
+
 [LedgerAPI on Github](https://github.com/viktorbobinski/Ledger-API)
 
 
 ## Stack
 
-A very small SpringBoot application with Spring Data, Spring Web, Thymeleaf & H2 Database dependencies. 
+A very small SpringBoot application using Spring Data, Spring Web, Thymeleaf & H2 Database dependencies. 
 
 ## What is it
 
-The ledger keeps track of transactions between 2 people. +/-value transactions are added by posting @RequestParam title and value, date gets added automatically.
+The ledger is an API + DB which keeps track of transactions between 2 people and displays them. +/-value transactions are added by posting @RequestParam title and value, date gets added automatically.
 
 ## How it works
 
