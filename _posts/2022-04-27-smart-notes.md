@@ -10,16 +10,16 @@ SmartNotes is a Java desktop app to manage notes. It allows to quickly copy note
 
 [SmartNotes on Github][smartnotes-github]
 
+## Description
 
 On top all notes are displayed. Once a note is highlighted, it can be copied with a button. <br />
 The notes are sorted from most to least used, as seen in the picture above.
 
-
-And below the code.
+## Code examples
 
 Every part of the UI is a `Swing` component. A scroll pane and button is added. Once the button is pressed the index from the `scrollPane` list is returned. This index is used to get the actual `String text` from the notes list.
 
-{% highlight ruby %}
+{% highlight java %}
 panel.add(scrollPane);
 copyButton.setText("Copy!");
 copyButton.addActionListener(e -> {
@@ -49,7 +49,7 @@ panel.add(addButton);
 
 After adding a few more lines to set the arrangement on the page...
 
-{% highlight ruby %}
+{% highlight java %}
 panel.setPreferredSize(new Dimension(1200, 400));
 panel.setLayout(new GridLayout(5, 1));
 label.setText("Smart Notes");
@@ -65,7 +65,7 @@ frame.setVisible(true);
 
 ...the app is ready to be started.
 
-{% highlight ruby %}
+{% highlight java %}
 public class Main {
 
     public static void main(String[] args) {
@@ -77,7 +77,7 @@ public class Main {
 
 Finally, the `SmartNotes` class which is a container for the added texts. `SmartNotePair` is a pair of `String text` and `int usageCount`.
 
-{% highlight ruby %}
+{% highlight java %}
 public class SmartNotes {
 
     List<SmartNotePair> notes;
@@ -114,7 +114,7 @@ public class SmartNotes {
 
 The IntelliJ plugin `Swing GUI Designer` helps with the GUI creation. Thanks to this Swing elements can be declared as global variables in the GUI class...
 
-{% highlight ruby %}
+{% highlight java %}
 private JButton copyButton;
 private JButton addButton;
 private JTextField textField;
