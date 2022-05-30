@@ -34,12 +34,14 @@ This application was supposed to help my friend who was trying to create an orga
 
 
 ## Functionalities
-- Creates a calendar for posting contents in groups
-- Shares data across tabs for easier workflow of users
-- Gathers user data from the posting activity
-- Connects to Bitly API to create bitly link used to analyse reach of the campaign.
-
-App supports optional advertisement content if group accepts ads and replacing a Facebook group functionality.
+- Creates a calendar for posting contents in groups 
+  - each user gets a list of groups 1 content to post in each group 
+  - the content is based on group and content category
+- Auto-sharing data across Google Sheets for easier workflow of users
+- Gathers user data from the posting activity + analysing this data
+- Connects to Bitly API to create bitly link used to analyse reach of the campaign
+- Optional advertisement content if group accepts ads
+- Replacing a Facebook group
 
 Example on how Bitly API is called to create a Bitly link:
 
