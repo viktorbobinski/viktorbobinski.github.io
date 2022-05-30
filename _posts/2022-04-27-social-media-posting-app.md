@@ -19,7 +19,7 @@ Google Apps Script + Bitly API
 
 ## Description
 
-This application was supposed to help my friend who was trying to create an organic posting calendar by hand. I undertook to automate this task - I learned the requirements and created the algorithm while learning Javascript from scrath. I've decided which tools I will use and created a smart way to use Bitly API for free. The app was generating 1k+ bitlinks with 5k+ clicks monthly.
+This application was supposed to help my friend who was trying to create an organic posting calendar by hand. I offered to automate this task - I learned the requirements and created the algorithm while learning Javascript& Apps Script from scrath. I've decided which tools I will use and created a smart way to use Bitly API for free. After a few initial releases we were generating 1k+ bitlinks with 5k+ clicks monthly.
 
 ## What I've learned
 
