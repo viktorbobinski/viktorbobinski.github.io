@@ -10,10 +10,12 @@ SmartNotes is a Java desktop app to manage notes. It allows to quickly copy note
 
 [SmartNotes on Github][smartnotes-github]
 
+
 ## Description
 
-On top all notes are displayed. Once a note is highlighted, it can be copied with a button. <br />
-The notes are sorted from most to least used, as seen in the picture above.
+This app helps saving notes on your PC and access them quickly. In the top window all notes are displayed. You can choose and copy a note with the Copy button button. <br />
+The notes are sorted from most to least used (copied). <br />
+In the bottom window a new note can be added.
 
 ## Code examples
 
