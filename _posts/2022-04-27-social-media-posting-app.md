@@ -43,6 +43,8 @@ This application was supposed to help my friend who was trying to create an orga
 - Optional advertisement content if group accepts ads
 - Replacing a Facebook group
 
+## Pictures
+
 Example on how Bitly API is called to create a Bitly link:
 
 {% highlight javascript %}
