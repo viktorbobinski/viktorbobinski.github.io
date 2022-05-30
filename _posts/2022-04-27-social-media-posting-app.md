@@ -23,19 +23,21 @@ This application was supposed to help my friend who was trying to create an orga
 
 ## What I've learned
 
-- Develop from scratch a tested application used by many users, while working with a 'product owner' during whole process to meet their requirements
-- Learned Javascript from scratch for this project 
-- Google Apps Script functions
+- Develop a tested application from scratch which is used by many users, while working with a 'product owner' during whole process to meet their requirements
+- Work on a product incrementally, adding new functions and solving bugs on the way
+- Gather reviews from users and improve the product based on them
+- Learned Javascript & Google Apps Script from scratch for this project, created the algorithm
 - Work with spreadsheets programmatically
-- Manage user accesses & permission levels
+- Manage user accesses & work with permission levels
 - Call a real API from within my App
-- Analyse Bitly data from Bitly links to find best groups and content
+- Analyse Bitly data from Bitly links to find best groups and content (using Bitly API: https://dev.bitly.com/)
+
 
 ## Functionalities
-- creates a calendar for posting contents in groups
-- shares data across tabs for easier workflow
-- gathers data
-- connects to Bitly API to create bitly link used to analyse reach of the campaign.
+- Creates a calendar for posting contents in groups
+- Shares data across tabs for easier workflow of users
+- Gathers user data from the posting activity
+- Connects to Bitly API to create bitly link used to analyse reach of the campaign.
 
 App supports optional advertisement content if group accepts ads and replacing a Facebook group functionality.
 
